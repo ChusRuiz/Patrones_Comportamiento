@@ -14,4 +14,5 @@ Iterator es un patrón de diseño de comportamiento que te permite recorrer elem
 Mediator es un patrón de diseño de comportamiento que te permite reducir las dependencias caóticas entre objetos. El patrón restringe las comunicaciones directas entre los objetos, forzándolos a colaborar únicamente a través de un objeto mediador.
 
 # Memento
-Memento es un patrón de diseño de comportamiento que te permite guardar y restaurar el estado previo de un objeto sin revelar los detalles de su implementación.
+Memento es un patrón de diseño de comportamiento que permite tomar instantáneas del estado de un objeto y restaurarlo en el futuro.
+El patrón Memento no compromete la estructura interna del objeto con el que trabaja, ni la información que se encuentra dentro de las instantáneas.
